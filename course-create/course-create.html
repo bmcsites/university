@@ -1,0 +1,45 @@
+<h2>Create Course</h2>
+<div class="container">
+    <div class="row">
+        <button type="button" class="btn btn-info" ui-sref="info">Back to Courses</button>
+        <form action="/action_page.php">
+            <div class="form-group">
+                <label for="courseName">courseName:</label>
+                <input type="text" value="{{vm.course.COL_4}}" class="form-control" id="courseName" placeholder="Enter courseName" name="courseName">
+            </div>
+            <div class="form-group">
+                <label for="university">university:</label>
+                <input type="text" value="{{vm.course.COL_1}}" class="form-control" id="university" placeholder="Enter university" name="university">
+            </div>
+            <div class="form-group">
+                <label for="city">city:</label>
+                <input type="text" value="{{vm.course.COL_2}}" class="form-control" id="city" placeholder="Enter city" name="city">
+            </div>
+            <div class="form-group">
+                <label for="country">country:</label>
+                <input type="text" value="{{vm.course.COL_3}}" class="form-control" id="country" placeholder="Enter country" name="country">
+            </div>
+            <div class="form-group">
+                <label for="courseDescription">courseDescription:</label>
+                <input type="text" value="{{vm.course.COL_5}}" class="form-control" id="courseDescription" placeholder="Enter courseDescription" name="courseDescription">
+            </div>
+            <div class="form-group">
+                <label for="startDate">startDate:</label>
+                <input type="date" value="{{vm.course.COL_6}}" class="form-control" id="startDate" placeholder="Enter startDate" name="startDate">
+            </div>
+            <div class="form-group">
+                <label for="endDate">endDate:</label>
+                <input type="date" value="{{vm.course.COL_7}}" class="form-control" id="endDate" placeholder="Enter endDate" name="endDate">
+            </div>
+            <div class="form-group">
+                <label for="price">price:</label>
+                <input type="number" value="{{vm.course.COL_8}}" class="form-control" id="price" placeholder="Enter price" name="price">
+            </div>
+            <div class="form-group">
+                <label for="currency">currency:</label>
+                <input type="text" value="{{vm.course.COL_9}}" class="form-control" id="currency" placeholder="Enter currency" name="currency">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </div>
+</div>

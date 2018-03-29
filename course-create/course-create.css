@@ -1,0 +1,117 @@
+weather-info {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+}
+weather-info h1 {
+  text-align: center;
+}
+weather-info .gender {
+  width: 210px;
+  margin: 0 auto;
+  line-height: 4;
+}
+weather-info .gender .fa {
+  margin: 0 6px;
+  cursor: pointer;
+}
+weather-info .card {
+  width: 250px;
+  margin: 0 auto;
+  color: white;
+  padding: 15px;
+}
+weather-info .card .wicon {
+  margin: 0 auto;
+}
+weather-info .card .big-img {
+  width: 150px;
+  height: 150px;
+}
+weather-info .card .big-img img {
+  width: 100%;
+}
+weather-info .card .small-img {
+  width: 50px;
+  height: 50px;
+}
+weather-info .card .small-img img {
+  width: 100%;
+}
+weather-info .card .daytime {
+  text-align: center;
+  margin-top: 15px;
+}
+weather-info .card .desc {
+  text-align: center;
+  margin-top: -26px;
+  font-weight: bold;
+  color: white;
+  font-size: 13px;
+}
+weather-info .card .location {
+  font-size: 21px;
+  width: 73%;
+  display: inline-block;
+  top: -6px;
+  position: relative;
+}
+weather-info .card .location .glyphicon {
+  top: 1px;
+  left: 3px;
+}
+weather-info .card .temp {
+  display: inline-block;
+  font-size: 30px;
+  width: 17%;
+  font-weight: bold;
+}
+weather-info .card .pressure {
+  text-align: center;
+  margin-top: -12px;
+}
+weather-info .card .fot-card {
+  text-align: center;
+  position: relative;
+  margin-top: 24px;
+}
+weather-info .card-day {
+  background-color: #48c3d9;
+  height: 350px;
+}
+weather-info .card-night {
+  background-color: #585858;
+  height: 270px;
+}
+weather-info .card-date {
+  height: 60px;
+  background-color: cadetblue;
+  margin-top: 20px;
+}
+weather-info .card-date h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 0.9;
+  font-size: 30px;
+}
+weather-info #foot {
+  margin-top: 30px;
+}
+weather-info #foot .s-card {
+  background-color: #48c3d9;
+  margin: 15px 0 0 0;
+  text-align: center;
+}
+weather-info #foot .s-card .location {
+  padding-top: 10px;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+weather-info #foot .col-xl-3.col-lg-3.col-md-6.col-sm-12.ng-scope:first-child {
+  display: none;
+}

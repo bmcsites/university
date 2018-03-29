@@ -1,0 +1,11 @@
+myhome h1,
+myhome h2,
+myhome h3,
+myhome h4,
+myhome p {
+  text-align: center;
+}
+myhome button.btn-info {
+  margin: 0 auto;
+  display: block;
+}
